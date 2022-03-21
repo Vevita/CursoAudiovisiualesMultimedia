@@ -1,0 +1,22 @@
+body{
+    background: lightgray;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+
+}
+img{
+    max-width: 100%;
+    width: 525px;
+    height: 375px;
+    border-radius: 15px;
+    object-fit: cover;
+    
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    background: grey;
+    padding: 5px 8px;
+}
