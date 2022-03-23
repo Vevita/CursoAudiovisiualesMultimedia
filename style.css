@@ -1,0 +1,105 @@
+*{
+    margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 15px;
+    max-width: 960px;
+    margin:0 auto;
+}
+
+a{ text-decoration:none; color:black;}
+
+img{ max-width: 100%}
+
+ul#trabajos,
+ul.tags{
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+ul#trabajos{
+    gap:6px;
+}
+
+ul#trabajos > li{
+    margin-top:20px;
+    width: 200px;
+    border: #EEEpx solid;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+    text-align:center;
+
+    transition:0.3s;
+}
+
+
+ul#trabajos > li:hover{
+ 
+    box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.4);
+   
+}
+
+
+ul#trabajos > li:hover a{
+ 
+color:black;   
+}
+
+
+
+
+ul#trabajos > li a{
+    color:grey;
+}
+
+
+/* Etiquetas de categorías */
+ul.tags{
+    margin-top:10px;
+    gap:2px;
+    justify-content:center;
+
+}
+
+ul.tags li{
+    text-align: center;
+    padding: 2px 12px;
+    background:coral;
+    border-radius:9999px;
+    font-size:12px;
+    font-weight:bold;
+  
+}
+
+ul.tags li.html{ background:rgb(219, 237, 219);}
+ul.tags li.css{ background:rgb(250, 222, 201);}
+ul.tags li.js{ background:rgb(232, 222, 238);}
+ul.tags li.figma{ background:rgb(222, 233, 238);}
+
+ul.tags li.html::before{ content:"HTML"}
+ul.tags li.css::before{ content:"CSS"}
+ul.tags li.js::before{ content:"JavaScript"}
+ul.tags li.figma::before{ content:"Figma"}
+
+
+ul#trabajos li h3{
+    margin-bottom:20px;
+}
+
+ul#trabajos > li img{
+  aspect-ratio: 1 / 1;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:10px;
+
+}
+
+
+footer{ margin-top:50px;}
