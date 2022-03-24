@@ -30,7 +30,7 @@ ul#trabajos{
 ul#trabajos > li{
     margin-top:20px;
     width: 200px;
-    border: #EEEpx solid;
+    border: #EEE solid;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
